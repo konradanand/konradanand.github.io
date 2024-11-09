@@ -85,4 +85,4 @@ sidebar:
   <a href="https://hpi.de/friedrich/people/marcus-pappik.html" target="_blank">Marcus Pappik</a><br>
   <a href="http://willperkins.org" target="_blank">Will Perkins</a><br>
   <a href="https://pw384.github.io" target="_blank">Jiaheng Wang</a>
-</p></small>
+</small></p>
