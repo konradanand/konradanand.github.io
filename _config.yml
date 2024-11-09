@@ -1,0 +1,93 @@
+# ---------------------------------
+# Site settings
+# ---------------------------------
+
+title: "Konrad Anand"
+description: "Konrad Anand Personal Site"
+email: konrad.anand@me.com
+name: "Konrad Anand"
+baseurl: "" # subpath of the site, e.g., /blog
+url: "https://konradanand.github.io" # base hostname & protocol
+locale: en-CA
+timezone: "Europe/London"
+
+# ---------------------------------
+# Social & Author information
+# ---------------------------------
+
+author:
+  avatar: "/assets/images/headshot.jpg"
+  location: " Edinburgh, UK"
+  links:
+    - label: " Email"
+      icon: "fas fa-envelope"
+      url: "mailto:konrad.anand@me.com"
+    - label: " CV [Updated Jan. 2024]"
+      icon: "fas fa-book-open"
+      url: "/assets/CV_KonradAnand.pdf"
+#    - label: "GitHub"
+#      icon: "fab fa-github"
+#      url: "https://github.com/konradanand"
+
+
+# ---------------------------------
+# Build and output settings
+# ---------------------------------
+
+theme: minimal-mistakes-jekyll
+#remote_theme: mmistakes/minimal-mistakes
+
+markdown: kramdown
+paginate: 5 # Number of posts per page
+paginate_path: "/page:num/"
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  
+# Sidebar settings
+sidebar:
+  avatar: true
+  author_bio: true
+  nav: "docs"  # Ensure this matches a file in _data/navigation.yml if you have one
+  position: "left"  # Set the sidebar position to the left
+
+
+
+# ---------------------------------
+# Exclude/Include
+# ---------------------------------
+
+exclude: []
+include:
+  - _pages
+
+# ---------------------------------
+# Layout defaults
+# ---------------------------------
+
+defaults:
+  # Posts layout defaults
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+  # Pages layout defaults
+  - scope:
+      path: "/_pages/"
+      type: pages
+    values:
+      layout: archive
+      author_profile: true

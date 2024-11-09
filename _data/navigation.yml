@@ -1,0 +1,13 @@
+main:
+  - title: "Research"
+    url: /research/
+  - title: "Partial Orders"
+    url: /partialorders/
+
+docs:
+  - title: "Home"
+    url: /
+  - title: "Research"
+    url: /research/
+  - title: "Partial Orders"
+    url: /partialorders/
