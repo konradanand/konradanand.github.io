@@ -12,6 +12,7 @@ source "https://rubygems.org"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 gem "github-pages", group: :jekyll_plugins
 gem "minimal-mistakes-jekyll", "~> 4.24", group: :jekyll_plugins
+gem 'faraday-retry', '~> 2.2'
 
 
 # If you have any plugins, put them here!
