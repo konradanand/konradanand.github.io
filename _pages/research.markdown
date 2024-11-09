@@ -76,7 +76,7 @@ sidebar:
 
 ### Collaborators
 
-<p>
+<p><small>
   <a href="https://fwm94.github.io" target="_blank">Weiming Feng</a><br>
   <a href="https://www.inf.ed.ac.uk/people/students/Graham_Freifeld.html" target="_blank">Graham Freifeld</a><br>
   <a href="https://hpi.de/friedrich/people/andreas-goebel.html" target="_blank">Andreas Göbel</a><br>
@@ -85,4 +85,4 @@ sidebar:
   <a href="https://hpi.de/friedrich/people/marcus-pappik.html" target="_blank">Marcus Pappik</a><br>
   <a href="http://willperkins.org" target="_blank">Will Perkins</a><br>
   <a href="https://pw384.github.io" target="_blank">Jiaheng Wang</a>
-</p>
+</p></small>
