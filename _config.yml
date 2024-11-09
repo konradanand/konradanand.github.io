@@ -34,8 +34,8 @@ author:
 # Build and output settings
 # ---------------------------------
 
-theme: minimal-mistakes-jekyll
-#remote_theme: mmistakes/minimal-mistakes
+#theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 
 markdown: kramdown
 paginate: 5 # Number of posts per page
