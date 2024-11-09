@@ -10,8 +10,25 @@ sidebar:
 
 ### Preprints
 
+<p><small>
+  <a href="https://arxiv.org/abs/2409.07892" target="_blank">Rapid mixing of the flip chain over non-crossing spanning trees</a><br>
+  Konrad Anand, Weiming Feng, Graham Freifeld, Heng Guo, Mark Jerrum, Jiaheng Wang
+</small></p>
+
 
 ### Publications
+
+<p><small>
+  <a href="https://arxiv.org/abs/2306.14867" target="_blank">Approximate Counting for Spin Systems in Sub-Quadratic Time</a><br>
+  Konrad Anand, Weiming Feng, Graham Freifeld, Heng Guo, Jiaheng Wang
+  <a href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2024.11" target="_blank">ICALP 2024</a>
+</small></p>
+
+<p><small>
+  <a href="https://arxiv.org/abs/2302.07821" target="_blank">Perfect Sampling of q-Spin Systems on Z2 via Weak Spatial Mixing</a><br>
+  Konrad Anand, Mark Jerrum
+  <a href="https://ems.press/journals/aihpd/articles/14298048" target="_blank">AIHPD 2024</a>
+</small></p>
 
 <p><small>
   <a href="https://arxiv.org/abs/2305.02450" target="_blank">Perfect Sampling for Hard Spheres from Strong Spatial Mixing</a><br>
@@ -25,20 +42,18 @@ sidebar:
   <a href="https://epubs.siam.org/doi/10.1137/21M1437433" target="_blank">SICOMP 2022</a>
 </small></p>
 
-<p><small>
-  <a href="https://arxiv.org/abs/2306.14867" target="_blank">Approximate Counting for Spin Systems in Sub-Quadratic Time</a><br>
-  Konrad Anand, Weiming Feng, Graham Freifeld, Heng Guo, Jiaheng Wang
-</small></p>
 
-<p><small>
-  <a href="https://arxiv.org/abs/2302.07821" target="_blank">Perfect Sampling of q-Spin Systems on Z2 via Weak Spatial Mixing</a><br>
-  Konrad Anand, Mark Jerrum
-</small></p>
 
 ### Academic History
 
 <table>
   <tbody>
+      <tr>
+      <td>Current</td>
+      <td>Postdoc in Informatics at the University of Edinburgh<br>
+      Supervisor: <a href="https://homepages.inf.ed.ac.uk/hguo/" target="_blank">Heng Guo</a>
+      </td>
+    </tr>
     <tr>
       <td>2024</td>
       <td>Ph.D. in Mathematics at Queen Mary, University of London<br>
