@@ -1,19 +1,63 @@
 ---
-layout: single  # or any other layout you prefer for the homepage
-title: "Home"
-author_profile: true  # if you want the author profile on the homepage
+layout: single
+title: "Konrad Anand"
+excerpt: "Postdoctoral researcher in probability, combinatorics, randomized algorithms, counting, and sampling."
+author_profile: true
 permalink: /
 ---
 
-{{ content }}
+<section class="intro-panel" aria-labelledby="intro-heading">
+  <p class="eyebrow">Probability · Combinatorics · Algorithms</p>
+  <h2 id="intro-heading">Counting, sampling, and randomization</h2>
+  <p class="intro-panel__lead">
+    I am a postdoctoral researcher in the
+    <a href="https://www.cs.ox.ac.uk/" target="_blank" rel="noopener noreferrer">Department of Computer Science at the University of Oxford</a>,
+    hosted by <a href="https://www.cs.ox.ac.uk/people/leslieann.goldberg/" target="_blank" rel="noopener noreferrer">Leslie Goldberg</a>.
+  </p>
+  <p>
+    My research sits at the intersection of probability, combinatorics, and algorithms, with a particular focus on efficient methods for approximate counting and sampling.
+  </p>
+  <p>
+    Before Oxford, I was a postdoc at the
+    <a href="https://informatics.ed.ac.uk/" target="_blank" rel="noopener noreferrer">University of Edinburgh</a> from 2024 to 2026, hosted by
+    <a href="https://homepages.inf.ed.ac.uk/hguo/" target="_blank" rel="noopener noreferrer">Heng Guo</a>.
+    I completed my PhD in Mathematics at
+    <a href="https://www.qmul.ac.uk/maths/" target="_blank" rel="noopener noreferrer">Queen Mary University of London</a> with
+    <a href="https://webspace.maths.qmul.ac.uk/m.jerrum/" target="_blank" rel="noopener noreferrer">Mark Jerrum</a>,
+    and my MSc in Computer Science and BSc Honours in Mathematics at
+    <a href="https://www.mcgill.ca/" target="_blank" rel="noopener noreferrer">McGill University</a>; my MSc was supervised by
+    <a href="https://luc.devroye.org/" target="_blank" rel="noopener noreferrer">Luc Devroye</a>.
+  </p>
+  <div class="action-row" aria-label="Primary links">
+    <a class="btn btn--primary" href="{{ '/research/' | relative_url }}">Explore my research</a>
+  </div>
+</section>
 
-<p><small>
-I am a postdoc in the School of Informatics at the University of Edinburgh, hosted by <a href="https://homepages.inf.ed.ac.uk/hguo/" target="_blank">Heng Guo</a>.
-I work in probability, combinatorics, and algorithms, particularly as related to counting, sampling, and randomization.
-</p></small>
+<section class="home-section" aria-labelledby="recent-work">
+  <div class="section-heading">
+    <p class="eyebrow">Latest papers</p>
+    <h2 id="recent-work">Recent work</h2>
+  </div>
 
-<p><small>
-  I completed my Ph.D. in Mathematics at the School of Mathematical Sciences at Queen Mary University of London, supervised by <a href="https://webspace.maths.qmul.ac.uk/m.jerrum/" target="_blank">Mark Jerrum</a>.
-  I completed my M.Sc. in Computer Science at McGill University, supervised by <a href="http://luc.devroye.org" target="_blank">Luc Devroye</a>.
-</p></small>
+  <div class="publication-list publication-list--compact">
+    <article class="publication-card">
+      <p class="publication-card__meta">Preprint · 2026</p>
+      <h3><a href="https://arxiv.org/abs/2607.27088" target="_blank" rel="noopener noreferrer">Linear time approximation of the TV distance between product distributions</a></h3>
+      <p>With <a href="https://www.alistairbenford.com/" target="_blank" rel="noopener noreferrer">Alistair Benford</a> and <a href="https://homepages.inf.ed.ac.uk/hguo/" target="_blank" rel="noopener noreferrer">Heng Guo</a>.</p>
+    </article>
 
+    <article class="publication-card">
+      <p class="publication-card__meta">Preprint · 2025</p>
+      <h3><a href="https://arxiv.org/abs/2511.16558" target="_blank" rel="noopener noreferrer">Simulating Gaussian boson sampling on graphs in polynomial time</a></h3>
+      <p>With <a href="https://sites.gatech.edu/zongchenchen/" target="_blank" rel="noopener noreferrer">Zongchen Chen</a>, <a href="https://homepages.inf.ed.ac.uk/mcryan/" target="_blank" rel="noopener noreferrer">Mary Cryan</a>, <a href="https://gfreifeld.github.io/" target="_blank" rel="noopener noreferrer">Graham Freifeld</a>, <a href="https://www.cs.ox.ac.uk/people/leslieann.goldberg/" target="_blank" rel="noopener noreferrer">Leslie Ann Goldberg</a>, <a href="https://homepages.inf.ed.ac.uk/hguo/" target="_blank" rel="noopener noreferrer">Heng Guo</a>, and <a href="https://sites.google.com/view/xinyuanzhang" target="_blank" rel="noopener noreferrer">Xinyuan Zhang</a>.</p>
+    </article>
+
+    <article class="publication-card">
+      <p class="publication-card__meta">APPROX/RANDOM · 2025</p>
+      <h3><a href="https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2025.60" target="_blank" rel="noopener noreferrer">Sink-free orientations: a local sampler with applications</a></h3>
+      <p>With <a href="https://gfreifeld.github.io/" target="_blank" rel="noopener noreferrer">Graham Freifeld</a>, <a href="https://homepages.inf.ed.ac.uk/hguo/" target="_blank" rel="noopener noreferrer">Heng Guo</a>, <a href="https://wcysai.com/" target="_blank" rel="noopener noreferrer">Chunyang Wang</a>, and <a href="https://pw384.github.io/" target="_blank" rel="noopener noreferrer">Jiaheng Wang</a>.</p>
+    </article>
+  </div>
+
+  <p class="section-link"><a href="{{ '/research/' | relative_url }}">View all papers and publication links <span aria-hidden="true">→</span></a></p>
+</section>

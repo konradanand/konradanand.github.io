@@ -7,33 +7,37 @@ head:
 # ---------------------------------
 
 title: "Konrad Anand"
-description: "Konrad Anand Personal Site"
-email: konrad.anand@me.com
+title_separator: "·"
+description: "Konrad Anand is a postdoctoral researcher working in probability, combinatorics, randomized algorithms, counting, and sampling."
+email: konrad.anand@cs.ox.ac.uk
 name: "Konrad Anand"
 baseurl: "" # subpath of the site, e.g., /blog
 url: "https://konradanand.github.io" # base hostname & protocol
-locale: en-CA
+locale: en-GB
 timezone: "Europe/London"
+repository: "konradanand/konradanand.github.io"
+minimal_mistakes_skin: "default"
+og_image: "/assets/images/social-card.png"
 
 # ---------------------------------
 # Social & Author information
 # ---------------------------------
 
 author:
+  name: "Konrad Anand"
   avatar: "/assets/images/headshot.jpg"
-  location: " Edinburgh, UK"
+  bio: "Postdoctoral researcher in Computer Science at the University of Oxford."
+  location: "Edinburgh, UK"
   links:
-    - label: " Email"
+    - label: "Email"
       icon: "fas fa-envelope"
-      url: "mailto:konrad.anand@me.com"
-    - label: " CV [Updated Jan. 2024]"
-      icon: "fas fa-book-open"
-      url: "/assets/CV_KonradAnand.pdf"
-#    - label: "GitHub"
-#      icon: "fab fa-github"
-#      url: "https://github.com/konradanand"
-
-
+      url: "mailto:konrad.anand@cs.ox.ac.uk"
+    - label: "ORCID"
+      icon: "fas fa-id-badge"
+      url: "https://orcid.org/0000-0001-5778-9397"
+    - label: "DBLP"
+      icon: "fas fa-book"
+      url: "https://dblp.org/pid/264/4971"
 # ---------------------------------
 # Build and output settings
 # ---------------------------------

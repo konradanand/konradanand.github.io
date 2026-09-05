@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Restaurant Partial Orders
-permalink: /Partialorders/
+permalink: /partialorders/
 author_profile: true
 sidebar:
   nav: "docs"

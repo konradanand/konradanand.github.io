@@ -1,13 +1,11 @@
 main:
   - title: "Research"
     url: /research/
-  - title: "Partial Orders"
-    url: /partialorders/
+  - title: "CV"
+    url: /assets/CV_KonradAnand.pdf
 
 docs:
   - title: "Home"
     url: /
   - title: "Research"
     url: /research/
-  - title: "Partial Orders"
-    url: /partialorders/
