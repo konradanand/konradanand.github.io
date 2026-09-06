@@ -51,8 +51,12 @@ button:focus-visible {
   background: var(--site-accent);
 }
 
+.greedy-nav > .site-title {
+  margin: 0 1rem 0 0;
+}
+
 #main > .page {
-  font-size: 0.9em;
+  font-size: 0.45em;
 }
 
 .page__title,
@@ -64,7 +68,7 @@ button:focus-visible {
 }
 
 .page__title {
-  font-size: clamp(1.8rem, 3.15vw, 2.5rem);
+  font-size: clamp(0.9rem, 1.575vw, 1.25rem);
 }
 
 .page__content h2 {
@@ -113,7 +117,7 @@ button:focus-visible {
   margin: 0.2rem 0 1rem;
   padding: 0;
   border: 0;
-  font-size: clamp(1.58rem, 3.6vw, 2.4rem);
+  font-size: clamp(0.79rem, 1.8vw, 1.2rem);
   line-height: 1.12;
 }
 
@@ -124,7 +128,7 @@ button:focus-visible {
 .intro-panel__lead,
 .page-intro {
   color: #2e4658;
-  font-size: 1.03rem;
+  font-size: 0.515rem;
 }
 
 .page-intro {
@@ -136,7 +140,7 @@ button:focus-visible {
 .publication-card__meta {
   margin: 0;
   color: var(--site-accent-dark);
-  font-size: 0.66rem;
+  font-size: 0.33rem;
   font-weight: 700;
   letter-spacing: 0.13em;
   line-height: 1.4;
@@ -191,7 +195,7 @@ button:focus-visible {
 .publication-card h3 {
   margin: 0.35rem 0 0.5rem;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.08rem;
+  font-size: 0.54rem;
   line-height: 1.35;
 }
 
@@ -236,7 +240,7 @@ button:focus-visible {
   background: #edf2ef;
   border: 1px solid #d6e0dc;
   border-radius: 999px;
-  font-size: 0.7rem;
+  font-size: 0.35rem;
   font-weight: 700;
   text-decoration: none;
 }
@@ -346,7 +350,7 @@ button:focus-visible {
   }
 
   .publication-list--compact .publication-card h3 {
-    font-size: 0.95rem;
+    font-size: 0.475rem;
   }
 }
 
